@@ -1,0 +1,86 @@
+.book-appointment-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-appointment-container h1 {
+  color: #1e40af;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.doctor-info {
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  margin-bottom: 2rem;
+}
+
+.doctor-info h2 {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.doctor-info p {
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-top: 0.5rem;
+}
+
+.submit-button {
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+.submit-button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+} 
