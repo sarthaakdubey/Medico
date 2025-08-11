@@ -1,6 +1,6 @@
 # Medico - Medical Website
 
-A comprehensive medical website for BCA major project that provides features for doctors and patients to manage appointments, medical records, and more.
+A comprehensive medical website for BTech major project that provides features for doctors and patients to manage appointments, medical records, and more.
 
 ## Features
 
